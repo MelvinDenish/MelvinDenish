@@ -1,30 +1,68 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
-  <title id="title">Melvin Denish — software builder</title>
-  <desc id="description">Full-stack products, applied AI, and data systems built for real-world problems.</desc>
+  <title id="title">Melvin Denish — software, graph intelligence, applied AI</title>
+  <desc id="description">A dark, hand-crafted isometric data core representing connected software systems.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#102b2a"/>
-      <stop offset="1" stop-color="#183a37"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#080a0c"/>
+      <stop offset=".55" stop-color="#0b1114"/>
+      <stop offset="1" stop-color="#172127"/>
     </linearGradient>
-    <radialGradient id="glow" cx="80%" cy="25%" r="75%">
-      <stop offset="0" stop-color="#d4f77a" stop-opacity=".22"/>
-      <stop offset="1" stop-color="#d4f77a" stop-opacity="0"/>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#203d3b"/>
+      <stop offset="1" stop-color="#122323"/>
+    </linearGradient>
+    <linearGradient id="left" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#183a37"/>
+      <stop offset="1" stop-color="#0a1518"/>
+    </linearGradient>
+    <linearGradient id="right" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1c2a32"/>
+      <stop offset="1" stop-color="#0d1317"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="78%" cy="48%" r="54%">
+      <stop stop-color="#5ac9a5" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#5ac9a5" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#d7e5db" stroke-opacity=".07"/>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#c4d6d0" stroke-opacity=".055"/>
     </pattern>
+    <filter id="shadow" x="-.4" y="-.4" width="1.8" height="1.9">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="13"/>
+      <feOffset dy="18"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".45"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <rect width="1200" height="360" rx="30" fill="url(#bg)"/>
-  <rect width="1200" height="360" rx="30" fill="url(#glow)"/>
-  <rect width="1200" height="360" rx="30" fill="url(#grid)"/>
-  <circle cx="1055" cy="178" r="204" fill="none" stroke="#d4f77a" stroke-opacity=".18" stroke-width="1.5"/>
-  <circle cx="1055" cy="178" r="153" fill="none" stroke="#d4f77a" stroke-opacity=".25" stroke-width="1.5"/>
-  <circle cx="1055" cy="178" r="101" fill="none" stroke="#d4f77a" stroke-opacity=".36" stroke-width="1.5"/>
-  <circle cx="1055" cy="178" r="45" fill="#d4f77a"/>
-  <path d="m1037 178 13 14 27-31" fill="none" stroke="#102b2a" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
-  <text x="68" y="72" fill="#d4f77a" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="800" letter-spacing="3">FULL-STACK · APPLIED AI · DATA SYSTEMS</text>
-  <text x="64" y="176" fill="#fffefa" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="91" font-weight="850" letter-spacing="-6">MELVIN</text>
-  <text x="64" y="265" fill="#d4f77a" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="91" font-weight="850" letter-spacing="-6">DENISH.</text>
-  <path d="M68 296h494" stroke="#d7e5db" stroke-opacity=".24"/>
-  <text x="68" y="330" fill="#c0cfca" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="550" letter-spacing=".4">SOFTWARE FOR REAL-WORLD PROBLEMS · CHENNAI, INDIA</text>
+  <rect width="1200" height="360" rx="28" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#halo)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <path d="M0 286 1200 86" stroke="#dcebe6" stroke-opacity=".035"/>
+  <path d="M0 326 1200 126" stroke="#dcebe6" stroke-opacity=".035"/>
+
+  <text x="68" y="70" fill="#79edd2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="800" letter-spacing="3.5">PRODUCT ENGINEERING / GRAPH INTELLIGENCE / AI</text>
+  <text x="64" y="174" fill="#f2f5f1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="88" font-weight="780" letter-spacing="-5">MELVIN</text>
+  <text x="64" y="260" fill="#c7ff5c" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="88" font-weight="780" letter-spacing="-5">DENISH</text>
+  <path d="M69 290h310" stroke="#c7ff5c" stroke-opacity=".55" stroke-width="2"/>
+  <text x="68" y="323" fill="#a8b2b5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" letter-spacing="1">SOFTWARE FOR REAL-WORLD PROBLEMS · CHENNAI, INDIA</text>
+
+  <g filter="url(#shadow)" stroke-linejoin="round">
+    <path d="m900 49 137 75-137 77-137-77z" fill="url(#top)" stroke="#79edd2" stroke-opacity=".72" stroke-width="1.5"/>
+    <path d="m763 124 137 77v126l-137-77z" fill="url(#left)" stroke="#79edd2" stroke-opacity=".55" stroke-width="1.5"/>
+    <path d="m1037 124-137 77v126l137-77z" fill="url(#right)" stroke="#c7ff5c" stroke-opacity=".65" stroke-width="1.5"/>
+    <path d="m900 49v126m0 26-137-77m137 77 137-77m-137 77v126" fill="none" stroke="#d8eee5" stroke-opacity=".32" stroke-width="1"/>
+    <path d="m805 147 95 54m95-54-95 54m-96 18 96 53m95-53-95 53" fill="none" stroke="#c7ff5c" stroke-opacity=".2" stroke-width="1"/>
+    <path d="m900 109 34 19v38l-34 19-34-19v-38z" fill="#0c1517" stroke="#c7ff5c" stroke-width="1.5"/>
+    <circle cx="900" cy="146" r="9" fill="#c7ff5c" stroke="#eaffc4" stroke-width="2"/>
+  </g>
+
+  <g fill="none" stroke="#9cebd7" stroke-opacity=".48" stroke-width="1.2">
+    <path d="m763 124-76-40-47 26m397 14 78-45 39 21M900 326v17l-53 14m190-95 54 30 42-24"/>
+  </g>
+  <g fill="#c7ff5c" stroke="#eaffc4" stroke-width="1.3">
+    <circle cx="640" cy="110" r="4"/><circle cx="1154" cy="100" r="4"/><circle cx="847" cy="357" r="4"/>
+  </g>
+  <g fill="#79edd2" stroke="#d9fff4" stroke-width="1.2">
+    <circle cx="1169" cy="278" r="3.5"/><circle cx="687" cy="84" r="3.5"/>
+  </g>
+  <text x="1082" y="79" fill="#77858b" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" letter-spacing="1.5">SYSTEMS / 01</text>
 </svg>
