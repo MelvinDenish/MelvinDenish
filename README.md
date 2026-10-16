@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="A handcrafted glowing network sphere beside the words I make complex feel clear" width="100%">
+  <img src="./assets/profile-banner-3d.svg" alt="A handcrafted glowing network sphere beside the words I make complex feel clear" width="100%">
 </p>
 
 <h1 align="center">Hey, I’m Melvin.</h1>
