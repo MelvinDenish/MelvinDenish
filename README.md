@@ -1,25 +1,48 @@
 # Hey, I’m Melvin 👋
 
-**Computer Science student at Anna University · Chennai, India**
+### I build thoughtful software with AI, data, and full-stack engineering.
 
-I build thoughtful software across full-stack engineering, applied AI, and data systems—turning real problems into products people can trust.
+I’m a Computer Science undergraduate at Anna University in Chennai. I enjoy taking a problem from the real workflow to a working product—connecting clear interfaces, reliable backends, and useful intelligence.
+
+Currently exploring **applied AI, graph intelligence, real-time systems, and agentic AI**.
 
 [Portfolio](https://melvin-denish-portfolio.vercel.app) · [LinkedIn](https://www.linkedin.com/in/melvin-denish-lawrance-705356400/) · [Email](mailto:lmelvindenish@gmail.com)
 
-## Featured projects
+---
 
-- [Sentinel-G](https://github.com/MelvinDenish/SME_Fraud_Detection) — Explainable, graph-powered fraud analysis for SME financial statements. [Live demo](https://sentinel-g-theta.vercel.app)
-- [PRISM](https://github.com/MelvinDenish/PRISM) — Placement prep with mentor discovery, AI interview practice, live sessions, and shared coding rooms. [Live demo](https://prismofficial.vercel.app)
-- [Pre-Delinquency Intervention Engine](https://github.com/MelvinDenish/PreDelinquencyEngine) — Real-time early-risk detection, built for Barclays Hack-O-Hire 2026.
-- [Business Entity Resolution](https://github.com/MelvinDenish/amazon-ml-challenge-2026) — ML pipeline for the Amazon ML Challenge; Team Bedrock scored 0.98674.
+## Selected work
 
-## Highlights
+### [Sentinel-G](https://github.com/MelvinDenish/SME_Fraud_Detection) · [Live demo](https://sentinel-g-theta.vercel.app)
+
+Explainable fraud analysis for SME financial statements, combining graph patterns, rules, and machine-learning detectors into a traceable evidence trail.
+
+### [PRISM](https://github.com/MelvinDenish/PRISM) · [Live demo](https://prismofficial.vercel.app)
+
+A placement-preparation platform for mentor discovery, live sessions, AI interview practice, collaborative coding rooms, and progress tracking.
+
+### [Pre-Delinquency Intervention Engine](https://github.com/MelvinDenish/PreDelinquencyEngine)
+
+A real-time early-risk platform built with a team for Barclays Hack-O-Hire 2026.
+
+### [Business Entity Resolution](https://github.com/MelvinDenish/amazon-ml-challenge-2026)
+
+A Python pipeline for the Amazon ML Challenge 2026. Team Bedrock achieved a **0.98674 leaderboard score**.
+
+## Recognition
 
 - **Runner-up** · Barclays Hack-O-Hire 2026
 - **4th overall · 1st in the Neo4j track** · HACKHAZARDS ’26
-- **9.4 / 10 CGPA** · B.E. Computer Science & Engineering (2024–2028)
 
-**Tools I use:** Python · TypeScript · React · FastAPI · Node.js · Kafka · Neo4j · PostgreSQL · MongoDB · Docker
+## Technologies
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,ts,react,nodejs,express,fastapi,pytorch,kafka,postgres,mongodb,docker&perline=12" alt="Python, TypeScript, React, Node.js, Express, FastAPI, PyTorch, Kafka, PostgreSQL, MongoDB, Docker" />
+  </a>
+  <a href="https://neo4j.com/">
+    <img src="https://cdn.simpleicons.org/neo4j" alt="Neo4j" width="48" height="48" />
+  </a>
+</p>
 
 More projects: [CoolHaven](https://github.com/MelvinDenish/CoolHaven)
 
